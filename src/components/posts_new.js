@@ -31,7 +31,9 @@ class PostNew extends Component {
 
   onSubmit(values) {
     console.log(values)
-    this.props.createPosts(values)
+    this.props.createPosts(values, () => {
+      this.props.history.push('/');
+    })
   }
   render() {
     const { handleSubmit } = this.props
