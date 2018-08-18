@@ -1,5 +1,7 @@
 # ReactJS_Blog
 
+# DEMO
+http://civcic.com/projects/blog/
 
 ### Getting Started
 
