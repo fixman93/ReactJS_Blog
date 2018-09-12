@@ -14,6 +14,15 @@ module.exports = {
           presets: ['react', 'es2015', 'stage-1']
         }
       }
+    ],
+    rules: [
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: {
+          loader: "babel-loader"
+        }
+      }
     ]
   },
   resolve: {
